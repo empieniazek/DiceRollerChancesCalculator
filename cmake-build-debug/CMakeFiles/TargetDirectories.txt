@@ -4,7 +4,6 @@
 /Users/maciejpieniazek/CLionProjects/fastProject/cmake-build-debug/CMakeFiles/list_install_components.dir
 /Users/maciejpieniazek/CLionProjects/fastProject/cmake-build-debug/CMakeFiles/rebuild_cache.dir
 /Users/maciejpieniazek/CLionProjects/fastProject/cmake-build-debug/CMakeFiles/edit_cache.dir
-/Users/maciejpieniazek/CLionProjects/fastProject/cmake-build-debug/CMakeFiles/fastProject.dir
 /Users/maciejpieniazek/CLionProjects/fastProject/cmake-build-debug/Google_tests/CMakeFiles/install/local.dir
 /Users/maciejpieniazek/CLionProjects/fastProject/cmake-build-debug/Google_tests/CMakeFiles/install/strip.dir
 /Users/maciejpieniazek/CLionProjects/fastProject/cmake-build-debug/Google_tests/CMakeFiles/install.dir
@@ -34,3 +33,10 @@
 /Users/maciejpieniazek/CLionProjects/fastProject/cmake-build-debug/Google_tests/lib/googletest/CMakeFiles/install.dir
 /Users/maciejpieniazek/CLionProjects/fastProject/cmake-build-debug/Google_tests/lib/googletest/CMakeFiles/gtest_main.dir
 /Users/maciejpieniazek/CLionProjects/fastProject/cmake-build-debug/Google_tests/lib/googletest/CMakeFiles/gtest.dir
+/Users/maciejpieniazek/CLionProjects/fastProject/cmake-build-debug/src/CMakeFiles/install/local.dir
+/Users/maciejpieniazek/CLionProjects/fastProject/cmake-build-debug/src/CMakeFiles/install/strip.dir
+/Users/maciejpieniazek/CLionProjects/fastProject/cmake-build-debug/src/CMakeFiles/install.dir
+/Users/maciejpieniazek/CLionProjects/fastProject/cmake-build-debug/src/CMakeFiles/list_install_components.dir
+/Users/maciejpieniazek/CLionProjects/fastProject/cmake-build-debug/src/CMakeFiles/rebuild_cache.dir
+/Users/maciejpieniazek/CLionProjects/fastProject/cmake-build-debug/src/CMakeFiles/edit_cache.dir
+/Users/maciejpieniazek/CLionProjects/fastProject/cmake-build-debug/src/CMakeFiles/fastProject.dir

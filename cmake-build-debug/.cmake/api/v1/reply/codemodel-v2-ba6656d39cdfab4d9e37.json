@@ -8,7 +8,8 @@
 					"build" : ".",
 					"childIndexes" : 
 					[
-						1
+						1,
+						5
 					],
 					"hasInstallRule" : true,
 					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
@@ -17,11 +18,7 @@
 						"string" : "3.21"
 					},
 					"projectIndex" : 0,
-					"source" : ".",
-					"targetIndexes" : 
-					[
-						1
-					]
+					"source" : "."
 				},
 				{
 					"build" : "Google_tests",
@@ -96,6 +93,21 @@
 						4,
 						5
 					]
+				},
+				{
+					"build" : "src",
+					"jsonFile" : "directory-src-Debug-b6cf2213fc5053b67c22.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.21"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 5,
+					"source" : "src",
+					"targetIndexes" : 
+					[
+						1
+					]
 				}
 			],
 			"name" : "Debug",
@@ -104,17 +116,14 @@
 				{
 					"childIndexes" : 
 					[
-						1
+						1,
+						5
 					],
 					"directoryIndexes" : 
 					[
 						0
 					],
-					"name" : "fastProject",
-					"targetIndexes" : 
-					[
-						1
-					]
+					"name" : "fastProject"
 				},
 				{
 					"childIndexes" : 
@@ -173,6 +182,18 @@
 						4,
 						5
 					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						5
+					],
+					"name" : "src",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1
+					]
 				}
 			],
 			"targets" : 
@@ -185,11 +206,11 @@
 					"projectIndex" : 1
 				},
 				{
-					"directoryIndex" : 0,
-					"id" : "fastProject::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-fastProject-Debug-2481ef048b20ac2970c6.json",
+					"directoryIndex" : 5,
+					"id" : "fastProject::@145eef247bfb46b6828c",
+					"jsonFile" : "target-fastProject-Debug-584f212dec2ff79952ba.json",
 					"name" : "fastProject",
-					"projectIndex" : 0
+					"projectIndex" : 5
 				},
 				{
 					"directoryIndex" : 3,

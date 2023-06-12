@@ -380,6 +380,15 @@ gtest_hide_internal_symbols:BOOL=OFF
 //Dependencies for the target
 gtest_main_LIB_DEPENDS:STATIC=general;gtest;
 
+//Value Computed by CMake
+src_BINARY_DIR:STATIC=/Users/maciejpieniazek/CLionProjects/fastProject/cmake-build-debug/src
+
+//Value Computed by CMake
+src_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+src_SOURCE_DIR:STATIC=/Users/maciejpieniazek/CLionProjects/fastProject/src
+
 
 ########################
 # INTERNAL cache entries
@@ -509,7 +518,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=5
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=6
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

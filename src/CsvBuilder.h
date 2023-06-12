@@ -5,10 +5,6 @@
 #ifndef FASTPROJECT_CSVBUILDER_H
 #define FASTPROJECT_CSVBUILDER_H
 
-typedef std::mt19937
-typedef int std::default_random_engine;
-int;
-
 #include "Calculator.h"
 #include <iostream>
 #include <fstream>

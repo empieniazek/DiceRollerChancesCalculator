@@ -2,7 +2,7 @@
 // Created by Maciej Pieniążek on 12/06/2023.
 //
 
-#include "../Dice.h"
+#include "../src/Dice.h"
 #include "gtest/gtest.h"
 #include <random>
 
