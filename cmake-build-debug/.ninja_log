@@ -1,0 +1,13 @@
+# ninja log v5
+10	1136	1686397117562093575	CMakeFiles/fastProject.dir/main.cpp.o	cb720e102cd4563e
+2504	2527	1686609181341760000	lib/libgtest_main.a	c5c8add6d0f4e50f
+1	2380	1686609181184790939	Google_tests/lib/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.o	efbdd04e8eff70d
+36	943	1686393999549712666	CMakeFiles/fastProject.dir/Throw.cpp.o	37cb54b208ccf0c5
+11	1005	1686398567094187253	CMakeFiles/fastProject.dir/CsvBuilder.cpp.o	b08e8fed96ea1bad
+36	878	1686393999482629471	CMakeFiles/fastProject.dir/Calculator.cpp.o	44564efb22fff73d
+3	298	1686611849508434029	build.ninja	56681015c2f69141
+0	1027	1686609179834918116	Google_tests/lib/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o	28a83e86e8ddb09f
+1005	1085	1686398567179640734	fastProject	9d47e0ce7a9f0ca2
+36	879	1686393999481791740	CMakeFiles/fastProject.dir/Dice.cpp.o	992b4f17d44baef1
+2381	2504	1686609181318823000	lib/libgtest.a	a077bb15124b83bc
+47	1129	1686611526081098180	Google_tests/CMakeFiles/Google_Tests_run.dir/DiceTest.cpp.o	c3661e5decd422a4

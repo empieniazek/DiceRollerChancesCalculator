@@ -1,0 +1,21 @@
+# ninja log v5
+0	47	1686606678734934978	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-mkdir	958cc5c4c8808357
+0	47	1686606678734934978	/Users/maciejpieniazek/CLionProjects/fastProject/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-mkdir	958cc5c4c8808357
+47	1361	1686606680048751961	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-download	5e850f496e23da43
+47	1361	1686606680048751961	/Users/maciejpieniazek/CLionProjects/fastProject/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-download	5e850f496e23da43
+1361	1375	1686606680062729795	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-update	2b76f5da9c7ec820
+1361	1375	1686606680062729795	/Users/maciejpieniazek/CLionProjects/fastProject/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-update	2b76f5da9c7ec820
+1375	1388	1686606680076404183	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-patch	5aea505ec6dd6666
+1375	1388	1686606680076404183	/Users/maciejpieniazek/CLionProjects/fastProject/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-patch	5aea505ec6dd6666
+1389	1402	1686606680090231939	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-configure	6c37137cb692b9fa
+1389	1402	1686606680090231939	/Users/maciejpieniazek/CLionProjects/fastProject/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-configure	6c37137cb692b9fa
+1402	1415	1686606680103401513	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-build	5f6e879f5fd4eadd
+1402	1415	1686606680103401513	/Users/maciejpieniazek/CLionProjects/fastProject/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-build	5f6e879f5fd4eadd
+1415	1429	1686606680116615043	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-install	fe66823968d9c100
+1415	1429	1686606680116615043	/Users/maciejpieniazek/CLionProjects/fastProject/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-install	fe66823968d9c100
+1429	1442	1686606680130431800	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-test	3fa9e3c9922b946e
+1429	1442	1686606680130431800	/Users/maciejpieniazek/CLionProjects/fastProject/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-test	3fa9e3c9922b946e
+1443	1461	1686606680149291028	CMakeFiles/googletest-populate-complete	73f04146f094f3ac
+1443	1461	1686606680149291028	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-done	73f04146f094f3ac
+1443	1461	1686606680149291028	/Users/maciejpieniazek/CLionProjects/fastProject/cmake-build-debug/_deps/googletest-subbuild/CMakeFiles/googletest-populate-complete	73f04146f094f3ac
+1443	1461	1686606680149291028	/Users/maciejpieniazek/CLionProjects/fastProject/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-done	73f04146f094f3ac
