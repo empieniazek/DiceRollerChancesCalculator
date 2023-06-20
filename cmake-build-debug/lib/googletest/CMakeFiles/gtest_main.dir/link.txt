@@ -1,0 +1,2 @@
+"W:\CLion 2021.3.2\bin\mingw\bin\ar.exe" qc ..\libgtest_main.a CMakeFiles/gtest_main.dir/src/gtest_main.cc.obj
+"W:\CLion 2021.3.2\bin\mingw\bin\ranlib.exe" ..\libgtest_main.a

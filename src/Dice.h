@@ -2,8 +2,8 @@
 // Created by Maciej Pieniążek on 10/06/2023.
 //
 
-#ifndef FASTPROJECT_DICE_H
-#define FASTPROJECT_DICE_H
+#ifndef DICEROLLER_DICE_H
+#define DICEROLLER_DICE_H
 
 
 #include <string>
@@ -29,4 +29,4 @@ public:
 };
 
 
-#endif //FASTPROJECT_DICE_H
+#endif //DICEROLLER_DICE_H

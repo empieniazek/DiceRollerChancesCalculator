@@ -1,0 +1,1 @@
+-IW:/Projects/Google_tests/lib/googlemock/include -IW:/Projects/Google_tests/lib/googlemock -isystem W:/Projects/Google_tests/lib/googletest/include -isystem W:/Projects/Google_tests/lib/googletest

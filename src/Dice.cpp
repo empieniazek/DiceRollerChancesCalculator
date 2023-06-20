@@ -2,18 +2,19 @@
 // Created by Maciej Pieniążek on 10/06/2023.
 //
 
+#include <stdexcept>
 #include "Dice.h"
 
 Dice::Dice(int & inputWalls) {
-    if(inputWalls < 0){
-        throw std::invalid_argument("Dice can't have negative walls number");
+    if(inputWalls <= 0){
+        throw std::invalid_argument("Dice should have at least one wall");
     }
     this->walls = inputWalls;
 }
 
 Dice::Dice(const int & inputWalls) {
-    if(inputWalls < 0){
-        throw std::invalid_argument("Dice can't have negative walls number");
+    if(inputWalls <= 0){
+        throw std::invalid_argument("Dice should have at least one wall");
     }
     this->walls = inputWalls;
 }

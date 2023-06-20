@@ -1,8 +1,8 @@
-# Install script for directory: /Users/maciejpieniazek/CLionProjects/fastProject/Google_tests
+# Install script for directory: W:/Projects/Google_tests
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/usr/local")
+  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/fastProject")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -34,11 +34,11 @@ endif()
 
 # Set default install directory permissions.
 if(NOT DEFINED CMAKE_OBJDUMP)
-  set(CMAKE_OBJDUMP "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/objdump")
+  set(CMAKE_OBJDUMP "W:/CLion 2021.3.2/bin/mingw/bin/objdump.exe")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/maciejpieniazek/CLionProjects/fastProject/cmake-build-debug/Google_tests/lib/cmake_install.cmake")
+  include("W:/Projects/cmake-build-debug/Google_tests/lib/cmake_install.cmake")
 endif()
 

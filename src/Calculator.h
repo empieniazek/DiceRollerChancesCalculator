@@ -2,8 +2,8 @@
 // Created by Maciej Pieniążek on 10/06/2023.
 //
 
-#ifndef FASTPROJECT_CALCULATOR_H
-#define FASTPROJECT_CALCULATOR_H
+#ifndef DICEROLLER_CALCULATOR_H
+#define DICEROLLER_CALCULATOR_H
 
 #include <random>
 #include "Throw.h"
@@ -20,4 +20,4 @@ public:
 
 };
 
-#endif //FASTPROJECT_CALCULATOR_H
+#endif //DICEROLLER_CALCULATOR_H

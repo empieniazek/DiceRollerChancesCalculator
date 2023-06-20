@@ -2,8 +2,8 @@
 // Created by Maciej Pieniążek on 10/06/2023.
 //
 
-#ifndef FASTPROJECT_CSVBUILDER_H
-#define FASTPROJECT_CSVBUILDER_H
+#ifndef DICEROLLER_CSVBUILDER_H
+#define DICEROLLER_CSVBUILDER_H
 
 #include "Calculator.h"
 #include <iostream>
@@ -33,4 +33,4 @@ public:
 };
 
 
-#endif //FASTPROJECT_CSVBUILDER_H
+#endif //DICEROLLER_CSVBUILDER_H

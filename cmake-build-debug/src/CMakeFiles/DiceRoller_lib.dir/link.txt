@@ -1,0 +1,2 @@
+"W:\CLion 2021.3.2\bin\mingw\bin\ar.exe" qc libDiceRoller_lib.a CMakeFiles/DiceRoller_lib.dir/Calculator.cpp.obj CMakeFiles/DiceRoller_lib.dir/CsvBuilder.cpp.obj CMakeFiles/DiceRoller_lib.dir/Dice.cpp.obj CMakeFiles/DiceRoller_lib.dir/Throw.cpp.obj CMakeFiles/DiceRoller_lib.dir/main.cpp.obj
+"W:\CLion 2021.3.2\bin\mingw\bin\ranlib.exe" libDiceRoller_lib.a

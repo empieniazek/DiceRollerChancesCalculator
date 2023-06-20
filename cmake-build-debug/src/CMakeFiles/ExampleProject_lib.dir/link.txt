@@ -1,0 +1,2 @@
+"W:\CLion 2021.3.2\bin\mingw\bin\ar.exe" qc libExampleProject_lib.a CMakeFiles/ExampleProject_lib.dir/Calculator.cpp.obj CMakeFiles/ExampleProject_lib.dir/CsvBuilder.cpp.obj CMakeFiles/ExampleProject_lib.dir/Dice.cpp.obj CMakeFiles/ExampleProject_lib.dir/Throw.cpp.obj CMakeFiles/ExampleProject_lib.dir/main.cpp.obj
+"W:\CLion 2021.3.2\bin\mingw\bin\ranlib.exe" libExampleProject_lib.a

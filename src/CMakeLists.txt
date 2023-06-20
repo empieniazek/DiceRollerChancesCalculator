@@ -1,6 +1,9 @@
-cmake_minimum_required(VERSION 3.21)
-project(src)
+set(BINARY ${CMAKE_PROJECT_NAME})
 
-set(CMAKE_CXX_STANDARD 14)
+file(GLOB_RECURSE SOURCES LIST_DIRECTORIES true *.h *.cpp)
 
-add_executable(fastProject main.cpp Dice.cpp Dice.h Throw.cpp Throw.h Calculator.cpp Calculator.h CsvBuilder.cpp CsvBuilder.h)
+set(SOURCES ${SOURCES})
+
+add_executable(${BINARY}_run ${SOURCES})
+
+add_library(${BINARY}_lib STATIC ${SOURCES})

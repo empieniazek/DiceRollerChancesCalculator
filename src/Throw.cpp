@@ -2,6 +2,7 @@
 // Created by Maciej Pieniążek on 10/06/2023.
 //
 
+#include <algorithm>
 #include "Throw.h"
 #include "vector"
 

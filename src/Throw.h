@@ -2,8 +2,8 @@
 // Created by Maciej Pieniążek on 10/06/2023.
 //
 
-#ifndef FASTPROJECT_THROW_H
-#define FASTPROJECT_THROW_H
+#ifndef DICEROLLER_THROW_H
+#define DICEROLLER_THROW_H
 
 #include <string>
 #include <random>
@@ -27,4 +27,4 @@ public:
 };
 
 
-#endif //FASTPROJECT_THROW_H
+#endif //DICEROLLER_THROW_H

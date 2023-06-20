@@ -1,7 +1,10 @@
-cmake_minimum_required(VERSION 3.21)
-project(fastProject)
+cmake_minimum_required(VERSION 3.10)
+project(DiceRoller)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_subdirectory(Google_tests)
+include_directories(src)
+
 add_subdirectory(src)
+add_subdirectory(tests)
+add_subdirectory(lib)

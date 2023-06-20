@@ -1,6 +1,6 @@
 # CMake generated Testfile for 
-# Source directory: /Users/maciejpieniazek/CLionProjects/fastProject/Google_tests/lib/googlemock
-# Build directory: /Users/maciejpieniazek/CLionProjects/fastProject/cmake-build-debug/Google_tests/lib/googlemock
+# Source directory: W:/Projects/Google_tests/lib/googlemock
+# Build directory: W:/Projects/cmake-build-debug/Google_tests/lib/googlemock
 # 
 # This file includes the relevant testing commands required for 
 # testing this directory and lists subdirectories to be tested as well.
