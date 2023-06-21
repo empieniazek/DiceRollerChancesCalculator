@@ -13,7 +13,7 @@
 						3
 					],
 					"hasInstallRule" : true,
-					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.10"
@@ -23,7 +23,7 @@
 				},
 				{
 					"build" : "src",
-					"jsonFile" : "directory-src-Debug-c94b7c2814d5a21df52c.json",
+					"jsonFile" : "directory-src-Debug-b6cf2213fc5053b67c22.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.10"
@@ -39,7 +39,7 @@
 				},
 				{
 					"build" : "tests",
-					"jsonFile" : "directory-tests-Debug-70e4927a02b591d5c1f8.json",
+					"jsonFile" : "directory-tests-Debug-b01f6abb0ab61427ef3b.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.10"
@@ -59,7 +59,7 @@
 						4
 					],
 					"hasInstallRule" : true,
-					"jsonFile" : "directory-lib-Debug-e9069484d90298468a11.json",
+					"jsonFile" : "directory-lib-Debug-c12f15c6f888b43a891c.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.5"
@@ -75,7 +75,7 @@
 						5
 					],
 					"hasInstallRule" : true,
-					"jsonFile" : "directory-lib.googlemock-Debug-8255e0efe8363263cd78.json",
+					"jsonFile" : "directory-lib.googlemock-Debug-c1df3855f1334db77e93.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.5"
@@ -92,7 +92,7 @@
 				{
 					"build" : "lib/googletest",
 					"hasInstallRule" : true,
-					"jsonFile" : "directory-lib.googletest-Debug-f8efe25b020551ed761c.json",
+					"jsonFile" : "directory-lib.googletest-Debug-f94f77caa724107d0a8c.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.5"
@@ -177,49 +177,49 @@
 				{
 					"directoryIndex" : 1,
 					"id" : "DiceRoller_lib::@145eef247bfb46b6828c",
-					"jsonFile" : "target-DiceRoller_lib-Debug-d8f254cc5e48251ffe74.json",
+					"jsonFile" : "target-DiceRoller_lib-Debug-aac4753fbdc825d3d1f5.json",
 					"name" : "DiceRoller_lib",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 1,
 					"id" : "DiceRoller_run::@145eef247bfb46b6828c",
-					"jsonFile" : "target-DiceRoller_run-Debug-72bba905789b24c3f689.json",
+					"jsonFile" : "target-DiceRoller_run-Debug-ad1cf930b9494b5cdc17.json",
 					"name" : "DiceRoller_run",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 2,
 					"id" : "DiceRoller_tst::@a44f0ac069e85531cdee",
-					"jsonFile" : "target-DiceRoller_tst-Debug-9b87e70f79bc0fe199b7.json",
+					"jsonFile" : "target-DiceRoller_tst-Debug-e8a252bf221a88d6b8bf.json",
 					"name" : "DiceRoller_tst",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 4,
 					"id" : "gmock::@977c622c37621959bcdf",
-					"jsonFile" : "target-gmock-Debug-0cd681aa87a3b7784406.json",
+					"jsonFile" : "target-gmock-Debug-894440fe4994d4c96dfe.json",
 					"name" : "gmock",
 					"projectIndex" : 2
 				},
 				{
 					"directoryIndex" : 4,
 					"id" : "gmock_main::@977c622c37621959bcdf",
-					"jsonFile" : "target-gmock_main-Debug-09b2d1cb5d833746aa07.json",
+					"jsonFile" : "target-gmock_main-Debug-28655f87125399a0e977.json",
 					"name" : "gmock_main",
 					"projectIndex" : 2
 				},
 				{
 					"directoryIndex" : 5,
 					"id" : "gtest::@919d8671e5e914cdef54",
-					"jsonFile" : "target-gtest-Debug-03f8be4c65c6cb95ed1f.json",
+					"jsonFile" : "target-gtest-Debug-40bc4a217c2c6c5a4e6f.json",
 					"name" : "gtest",
 					"projectIndex" : 3
 				},
 				{
 					"directoryIndex" : 5,
 					"id" : "gtest_main::@919d8671e5e914cdef54",
-					"jsonFile" : "target-gtest_main-Debug-66ca7642b59ba200a28b.json",
+					"jsonFile" : "target-gtest_main-Debug-a86bc9ff6d44b740dec4.json",
 					"name" : "gtest_main",
 					"projectIndex" : 3
 				}
@@ -229,8 +229,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "W:/Projects/cmake-build-debug",
-		"source" : "W:/Projects"
+		"build" : "/Users/maciejpieniazek/CLionProjects/fastProject/cmake-build-debug",
+		"source" : "/Users/maciejpieniazek/CLionProjects/fastProject"
 	},
 	"version" : 
 	{

@@ -3,7 +3,7 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "lib/libgmock_main.a"
+			"path" : "lib/libgmock.a"
 		}
 	],
 	"backtrace" : 3,
@@ -34,7 +34,7 @@
 			{
 				"command" : 2,
 				"file" : 1,
-				"line" : 100,
+				"line" : 97,
 				"parent" : 0
 			},
 			{
@@ -64,7 +64,7 @@
 			{
 				"command" : 5,
 				"file" : 1,
-				"line" : 101,
+				"line" : 98,
 				"parent" : 0
 			},
 			{
@@ -96,10 +96,10 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "-g"
+					"fragment" : "-g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk"
 				},
 				{
-					"fragment" : "-Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=0 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers"
+					"fragment" : " -DGTEST_HAS_PTHREAD=1  "
 				},
 				{
 					"fragment" : "-std=c++14"
@@ -109,27 +109,25 @@
 			[
 				{
 					"backtrace" : 8,
-					"path" : "W:/Projects/src"
+					"path" : "/Users/maciejpieniazek/CLionProjects/fastProject/src"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "/Users/maciejpieniazek/CLionProjects/fastProject/lib/googlemock/include"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "/Users/maciejpieniazek/CLionProjects/fastProject/lib/googlemock"
 				},
 				{
 					"backtrace" : 9,
 					"isSystem" : true,
-					"path" : "W:/Projects/lib/googlemock/include"
+					"path" : "/Users/maciejpieniazek/CLionProjects/fastProject/lib/googletest/include"
 				},
 				{
 					"backtrace" : 9,
 					"isSystem" : true,
-					"path" : "W:/Projects/lib/googlemock"
-				},
-				{
-					"backtrace" : 9,
-					"isSystem" : true,
-					"path" : "W:/Projects/lib/googletest/include"
-				},
-				{
-					"backtrace" : 9,
-					"isSystem" : true,
-					"path" : "W:/Projects/lib/googletest"
+					"path" : "/Users/maciejpieniazek/CLionProjects/fastProject/lib/googletest"
 				}
 			],
 			"language" : "CXX",
@@ -151,14 +149,10 @@
 	[
 		{
 			"backtrace" : 6,
-			"id" : "gmock::@977c622c37621959bcdf"
-		},
-		{
-			"backtrace" : 6,
 			"id" : "gtest::@919d8671e5e914cdef54"
 		}
 	],
-	"id" : "gmock_main::@977c622c37621959bcdf",
+	"id" : "gmock::@977c622c37621959bcdf",
 	"install" : 
 	{
 		"destinations" : 
@@ -170,11 +164,11 @@
 		],
 		"prefix" : 
 		{
-			"path" : "C:/Program Files (x86)/fastProject"
+			"path" : "/usr/local"
 		}
 	},
-	"name" : "gmock_main",
-	"nameOnDisk" : "libgmock_main.a",
+	"name" : "gmock",
+	"nameOnDisk" : "libgmock.a",
 	"paths" : 
 	{
 		"build" : "lib/googlemock",
@@ -195,7 +189,7 @@
 		{
 			"backtrace" : 3,
 			"compileGroupIndex" : 0,
-			"path" : "lib/googlemock/src/gmock_main.cc",
+			"path" : "lib/googlemock/src/gmock-all.cc",
 			"sourceGroupIndex" : 0
 		}
 	],

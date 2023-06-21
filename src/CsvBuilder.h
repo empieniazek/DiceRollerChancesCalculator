@@ -28,8 +28,9 @@ private:
 
 public:
     CsvBuilder();
-    void BuildCsv(const std::string& dir, std::default_random_engine &mt) const;
-    std::vector<std::string> CreateRowFor(int rollDice, int countDice, std::default_random_engine & mt) const;
+    void BuildCsv(const std::string& dir) const;
+    std::vector<std::string> CreateRowFor(int rollDice, int countDice) const;
+    int GetActualRollsNumber() const;
 };
 
 

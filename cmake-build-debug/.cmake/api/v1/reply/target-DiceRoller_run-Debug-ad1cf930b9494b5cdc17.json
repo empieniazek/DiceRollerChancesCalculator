@@ -1,9 +1,8 @@
 {
-	"archive" : {},
 	"artifacts" : 
 	[
 		{
-			"path" : "src/libDiceRoller_lib.a"
+			"path" : "src/DiceRoller_run"
 		}
 	],
 	"backtrace" : 1,
@@ -11,7 +10,7 @@
 	{
 		"commands" : 
 		[
-			"add_library",
+			"add_executable",
 			"include_directories"
 		],
 		"files" : 
@@ -27,7 +26,7 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 9,
+				"line" : 7,
 				"parent" : 0
 			},
 			{
@@ -47,7 +46,7 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "-g"
+					"fragment" : "-g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk"
 				},
 				{
 					"fragment" : "-std=gnu++14"
@@ -57,7 +56,7 @@
 			[
 				{
 					"backtrace" : 3,
-					"path" : "W:/Projects/src"
+					"path" : "/Users/maciejpieniazek/CLionProjects/fastProject/src"
 				}
 			],
 			"language" : "CXX",
@@ -79,9 +78,24 @@
 			]
 		}
 	],
-	"id" : "DiceRoller_lib::@145eef247bfb46b6828c",
-	"name" : "DiceRoller_lib",
-	"nameOnDisk" : "libDiceRoller_lib.a",
+	"id" : "DiceRoller_run::@145eef247bfb46b6828c",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-g",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "",
+				"role" : "flags"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "DiceRoller_run",
+	"nameOnDisk" : "DiceRoller_run",
 	"paths" : 
 	{
 		"build" : "src",
@@ -164,5 +178,5 @@
 			"sourceGroupIndex" : 0
 		}
 	],
-	"type" : "STATIC_LIBRARY"
+	"type" : "EXECUTABLE"
 }

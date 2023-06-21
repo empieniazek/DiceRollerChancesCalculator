@@ -18,10 +18,10 @@ Throw::Throw(){
     countNumber = 0;
 }
 
-int Throw::Roll(std::default_random_engine & mt) const {
+int Throw::Roll() const {
     std::vector<int> allDicesOutcome;
     for(Dice dice: dices){
-        allDicesOutcome.push_back(dice.RollWithReRoll(mt));
+        allDicesOutcome.push_back(dice.RollWithReRoll());
     }
     std::sort(allDicesOutcome.begin(), allDicesOutcome.end(), std::greater<>());
     int sum = 0;
@@ -31,8 +31,8 @@ int Throw::Roll(std::default_random_engine & mt) const {
     return sum;
 }
 
-int Throw::RollForPt(std::default_random_engine & mt, int  & pt) const {
-    return (int) Throw::Roll(mt) > pt;
+int Throw::RollForPt(int  & pt) const {
+    return (int) Throw::Roll() > pt;
 }
 
 std::string Throw::name() const {

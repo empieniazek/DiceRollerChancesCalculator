@@ -1,11 +1,9 @@
 {
+	"archive" : {},
 	"artifacts" : 
 	[
 		{
-			"path" : "src/DiceRoller_run.exe"
-		},
-		{
-			"path" : "src/DiceRoller_run.pdb"
+			"path" : "src/libDiceRoller_lib.a"
 		}
 	],
 	"backtrace" : 1,
@@ -13,7 +11,7 @@
 	{
 		"commands" : 
 		[
-			"add_executable",
+			"add_library",
 			"include_directories"
 		],
 		"files" : 
@@ -29,7 +27,7 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 7,
+				"line" : 9,
 				"parent" : 0
 			},
 			{
@@ -49,7 +47,7 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "-g"
+					"fragment" : "-g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk"
 				},
 				{
 					"fragment" : "-std=gnu++14"
@@ -59,7 +57,7 @@
 			[
 				{
 					"backtrace" : 3,
-					"path" : "W:/Projects/src"
+					"path" : "/Users/maciejpieniazek/CLionProjects/fastProject/src"
 				}
 			],
 			"language" : "CXX",
@@ -81,28 +79,9 @@
 			]
 		}
 	],
-	"id" : "DiceRoller_run::@145eef247bfb46b6828c",
-	"link" : 
-	{
-		"commandFragments" : 
-		[
-			{
-				"fragment" : "-g",
-				"role" : "flags"
-			},
-			{
-				"fragment" : "",
-				"role" : "flags"
-			},
-			{
-				"fragment" : "-lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32",
-				"role" : "libraries"
-			}
-		],
-		"language" : "CXX"
-	},
-	"name" : "DiceRoller_run",
-	"nameOnDisk" : "DiceRoller_run.exe",
+	"id" : "DiceRoller_lib::@145eef247bfb46b6828c",
+	"name" : "DiceRoller_lib",
+	"nameOnDisk" : "libDiceRoller_lib.a",
 	"paths" : 
 	{
 		"build" : "src",
@@ -185,5 +164,5 @@
 			"sourceGroupIndex" : 0
 		}
 	],
-	"type" : "EXECUTABLE"
+	"type" : "STATIC_LIBRARY"
 }

@@ -96,10 +96,10 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "-g"
+					"fragment" : "-g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk"
 				},
 				{
-					"fragment" : "-Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=0 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers"
+					"fragment" : " -DGTEST_HAS_PTHREAD=1  "
 				},
 				{
 					"fragment" : "-std=c++14"
@@ -109,17 +109,17 @@
 			[
 				{
 					"backtrace" : 8,
-					"path" : "W:/Projects/src"
+					"path" : "/Users/maciejpieniazek/CLionProjects/fastProject/src"
 				},
 				{
 					"backtrace" : 9,
 					"isSystem" : true,
-					"path" : "W:/Projects/lib/googletest/include"
+					"path" : "/Users/maciejpieniazek/CLionProjects/fastProject/lib/googletest/include"
 				},
 				{
 					"backtrace" : 9,
 					"isSystem" : true,
-					"path" : "W:/Projects/lib/googletest"
+					"path" : "/Users/maciejpieniazek/CLionProjects/fastProject/lib/googletest"
 				}
 			],
 			"language" : "CXX",
@@ -156,7 +156,7 @@
 		],
 		"prefix" : 
 		{
-			"path" : "C:/Program Files (x86)/fastProject"
+			"path" : "/usr/local"
 		}
 	},
 	"name" : "gtest_main",

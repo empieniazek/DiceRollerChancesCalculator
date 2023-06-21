@@ -19,9 +19,9 @@ public:
     Throw();
     Throw(int inputRollNumber, int inuptCountNumber, int inputDicesWalls);
 
-    int Roll(std::default_random_engine & mt) const;
+    int Roll() const;
 
-    int RollForPt(std::default_random_engine & mt, int & pt) const;
+    int RollForPt(int & pt) const;
 
     std::string name() const;
 };

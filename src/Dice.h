@@ -14,14 +14,15 @@ private:
 
 private:
     int walls;
+    std::mt19937_64 mt;
 public:
     Dice();
     Dice(int & inputWalls);
     Dice(const int & inputWalls);
 
-    int Roll(std::default_random_engine & mt) const;
+    int Roll();
 
-    int RollWithReRoll(std::default_random_engine & mt) const;
+    int RollWithReRoll();
 
     std::string name() const;
 

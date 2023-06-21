@@ -15,8 +15,8 @@ private:
 public:
     Calculator(int diceRoll, int diceCount, int diceWalls = 10);
 
-    double RollForAvg(int xTimes, std::default_random_engine & mt);
-    double RollForPt(int xTimes, int pt, std::default_random_engine & mt);
+    double RollForAvg(int xTimes);
+    double RollForPt(int xTimes, int pt);
 
 };
 

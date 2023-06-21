@@ -5,25 +5,32 @@
 #include <stdexcept>
 #include "Dice.h"
 
+Dice::Dice() {
+    walls = 6;
+    this->mt = std::mt19937_64(std::chrono::steady_clock::now().time_since_epoch().count());
+}
+
 Dice::Dice(int & inputWalls) {
-    if(inputWalls <= 0){
-        throw std::invalid_argument("Dice should have at least one wall");
+    if(inputWalls <= 1){
+        throw std::invalid_argument("Dice should have at least two walls");
     }
     this->walls = inputWalls;
+    this->mt = std::mt19937_64(std::chrono::steady_clock::now().time_since_epoch().count());
 }
 
 Dice::Dice(const int & inputWalls) {
-    if(inputWalls <= 0){
-        throw std::invalid_argument("Dice should have at least one wall");
+    if(inputWalls <= 1){
+        throw std::invalid_argument("Dice should have at least two walls");
     }
     this->walls = inputWalls;
+    this->mt = std::mt19937_64(std::chrono::steady_clock::now().time_since_epoch().count());
 }
 
-int Dice::RollWithReRoll(std::default_random_engine & mt) const {
-    int lastRoll = Dice::Roll(mt);
+int Dice::RollWithReRoll(){
+    int lastRoll = Dice::Roll();
     int sum = lastRoll;
     while (lastRoll == walls){
-        lastRoll = Dice::Roll(mt);
+        lastRoll = Dice::Roll();
         sum += lastRoll;
     }
     return sum;
@@ -33,14 +40,10 @@ std::string Dice::name() const {
     return "d" + std::to_string(this->walls);
 }
 
-Dice::Dice() {
-    walls = 6;
-}
-
 int Dice::getWalls() const {
     return walls;
 }
 
-int Dice::Roll(std::default_random_engine &mt) const {
-    return (int) mt() % walls + 1;
+int Dice::Roll(){
+    return (int) (mt() % walls) + 1;
 }

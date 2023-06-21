@@ -10,11 +10,12 @@ TEST(Dice, DiceCosntructor) {
     std::default_random_engine mt(std::chrono::steady_clock::now().time_since_epoch().count());
 
     for(int i = 0; i < 1000; i++){
-        int desiredWalls = (int) mt();
+        int desiredWalls = (int) mt()%1000 + 2;
         Dice di = Dice(desiredWalls);
 
         ASSERT_EQ(di.getWalls(), desiredWalls);
     }
+    ASSERT_ANY_THROW(Dice d0 = Dice(1)) << "Dice cant have 1 wall";
 
     ASSERT_ANY_THROW(Dice d0 = Dice(0)) << "Dice cant have 0 walls";
 
@@ -63,7 +64,7 @@ TEST(Dice, DiceRoll) {
 
         for(int j = 0; j < 1000 ; j++){
 
-            int val = di.Roll(mt);
+            int val = di.Roll();
 
             if( val <= 0 ){
                 errorCounter++;
@@ -83,14 +84,14 @@ TEST(Dice, DiceRollWithReRoll) {
 
     for(int i = 0; i < 10; i++){
 
-        int desiredWalls = (int) (mt() % 10) + 1;
+        int desiredWalls = (int) (mt() % 9) + 2;
         Dice di = Dice(desiredWalls);
 
         int reRollCounter = 0;
 
         for(int j = 0; j < 10000 ; j++){
 
-            int val = di.RollWithReRoll(mt);
+            int val = di.RollWithReRoll();
             if(val > desiredWalls){
                 reRollCounter++;
             }
