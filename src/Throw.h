@@ -9,19 +9,22 @@
 #include <random>
 #include <vector>
 #include "Dice.h"
+#include <mutex>
 
 class Throw {
 private:
     std::vector<Dice> dices;
     int countNumber{};
+    std::mutex mtx;
 
+    void RollAndAddToVar(Dice & dice, std::vector<int> & desiredLoc);
 public:
     Throw();
-    Throw(int inputRollNumber, int inuptCountNumber, int inputDicesWalls);
+    Throw(int inputRollNumber, int inputCountNumber, int inputDicesWalls);
 
-    int Roll() const;
+    int Roll();
 
-    int RollForPt(int & pt) const;
+    int RollForPt(int & pt);
 
     std::string name() const;
 };

@@ -10,7 +10,7 @@
 
 class Calculator {
 private:
-    Throw mainThrow;
+    Throw* mainThrow;
 
 public:
     Calculator(int diceRoll, int diceCount, int diceWalls = 10);

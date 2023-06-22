@@ -5,6 +5,8 @@
 #include <algorithm>
 #include "Throw.h"
 #include "vector"
+#include <mutex>
+#include <thread>
 
 Throw::Throw(int inputRollNumber, int inputCountNumber, int inputDicesWalls=10) {
     for(int i = 0; i < inputRollNumber; i++){
@@ -18,12 +20,25 @@ Throw::Throw(){
     countNumber = 0;
 }
 
-int Throw::Roll() const {
+void Throw::RollAndAddToVar(Dice & dice, std::vector<int> & desiredLoc){
+    auto val = dice.RollWithReRoll();
+    mtx.lock();
+    desiredLoc.push_back(val);
+    mtx.unlock();
+}
+
+int Throw::Roll() {
     std::vector<int> allDicesOutcome;
-    for(Dice dice: dices){
-        allDicesOutcome.push_back(dice.RollWithReRoll());
+    std::vector<std::thread> tasks;
+    for(Dice & dice: dices){
+        tasks.push_back(std::thread(&Throw::RollAndAddToVar, this, dice, allDicesOutcome));
     }
+    for(auto & task : tasks){
+        task.join();
+    }
+
     std::sort(allDicesOutcome.begin(), allDicesOutcome.end(), std::greater<>());
+
     int sum = 0;
     for(int i = 0; i < countNumber; i++){
         sum += allDicesOutcome[i];
@@ -31,7 +46,7 @@ int Throw::Roll() const {
     return sum;
 }
 
-int Throw::RollForPt(int  & pt) const {
+int Throw::RollForPt(int  & pt) {
     return (int) Throw::Roll() > pt;
 }
 

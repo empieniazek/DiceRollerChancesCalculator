@@ -44,3 +44,9 @@
 4	1603	1687388036178834555	src/CMakeFiles/DiceRoller_run.dir/main.cpp.o	b21a6201fc51673d
 3	1749	1687388036326905369	src/CMakeFiles/DiceRoller_run.dir/CsvBuilder.cpp.o	9a75753fce563db2
 1749	1830	1687388036415412350	src/DiceRoller_run	988749fe5937594d
+37	1106	1687390176508834608	src/CMakeFiles/DiceRoller_run.dir/main.cpp.o	b21a6201fc51673d
+36	1138	1687390619430609104	src/CMakeFiles/DiceRoller_run.dir/main.cpp.o	b21a6201fc51673d
+37	957	1687390963528108076	src/CMakeFiles/DiceRoller_run.dir/main.cpp.o	b21a6201fc51673d
+21	1673	1687391223496002731	src/CMakeFiles/DiceRoller_run.dir/Calculator.cpp.o	da89edf4ac2c7a97
+24	1831	1687391223663764077	src/CMakeFiles/DiceRoller_run.dir/main.cpp.o	b21a6201fc51673d
+22	1933	1687391223765744017	src/CMakeFiles/DiceRoller_run.dir/CsvBuilder.cpp.o	9a75753fce563db2
